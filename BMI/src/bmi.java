@@ -65,13 +65,13 @@ public class bmi {
 		} else if (result >18.5 && result <= 25) {
 			category = "normal (healthy weight)";
 		} else if (result >25 && result <= 30) {
-			category = "overweight";
+			category = "weight over";
 		} else if (result >30 && result <= 35) {
-			category = "moderately obese";
+			category = "obesity first degree";
 		} else if (result >35 && result <= 40) {
-			category = "severely obese";
+			category = "obesity second degree";
 		} else {
-			category ="very severely obese";
+			category ="obesity third degree";
 		}
 		return category;
 	}
